@@ -167,7 +167,7 @@ input[type="search"]::-webkit-search-decoration {
 fieldset {
   padding: .35em .625em .75em;
   margin: 0 2px;
-  border: 1px solid #c0c0c0;
+  border: 1px solid #c0c0c0 !important;
 }
 legend {
   padding: 0;
@@ -214,7 +214,7 @@ th {
   }
   pre,
   blockquote {
-    border: 1px solid #999;
+    border: 1px solid #999 !important;
 
     page-break-inside: avoid;
   }
